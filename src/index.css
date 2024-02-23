@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  @apply bg-dark text-light
+}
+
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.animation-1 {
+  @apply transition-transform ease-in-out duration-150
+}
+
+
+.gradient-bg-1 {
+  background:
+    linear-gradient(97.91deg, #EFB1FF 6.1%, #ED50FF 103.66%);
+}
+
+/* Header CSS */
+.header-squire-bg {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(167, 229, 254, 0.523) 0%, rgba(68, 108, 249, 0.36) 100%);
+}
