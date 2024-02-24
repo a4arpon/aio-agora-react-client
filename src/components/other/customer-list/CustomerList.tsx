@@ -4,7 +4,7 @@ import graphCustomersPng from "@/assets/graph-customers.png"
 
 const CustomerList = () => {
   return (
-    <div className="grid justify-between items-center lg:grid-cols-5 bg-[#13121C] mb-20">
+    <section id="customer-list" className="grid justify-between items-center lg:grid-cols-5 bg-[#13121C] mb-24">
       <div className="lg:pl-28 px-4 lg:px-0 py-20 lg:col-span-3 text-center lg:text-start">
         <h3
           className={className(
@@ -39,7 +39,7 @@ const CustomerList = () => {
       <div className="customer-section-image-bg h-full p-4 lg:p-10 lg:pr-28 lg:col-span-2">
         <img src={graphCustomersPng} alt="" />
       </div>
-    </div>
+    </section>
   )
 }
 
