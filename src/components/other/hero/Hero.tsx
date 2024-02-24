@@ -8,7 +8,7 @@ import HeaderCard from "./HeaderCard"
 const Hero = () => {
   return (
     <section
-      id="header"
+      id="hero"
       className="min-h-screen lg:h-[660px] relative"
       style={{ backgroundImage: `url(${svgBG})` }}
     >

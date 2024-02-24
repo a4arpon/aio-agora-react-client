@@ -3,7 +3,7 @@ import Header from "./Header"
 
 const Functionalities = () => {
   return (
-    <section id="functionalities" className="container mb-20">
+    <section id="functionalities" className="container mb-40">
       <Header />
       <div className="grid lg:grid-cols-3 gap-6">
         <div className="rounded-xl h-[170px] bg-gradient-to-tr to-transparent p-4 from-[#5d3867] flex flex-col items-start justify-center gap-4">
