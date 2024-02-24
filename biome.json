@@ -28,5 +28,8 @@
       "trailingComma": "es5",
       "jsxQuoteStyle": "double"
     }
+  },
+  "files": {
+    "ignore": ["routeTree.gen.ts"]
   }
 }
