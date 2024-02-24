@@ -30,3 +30,11 @@ body {
 .header-squire-bg {
   background: radial-gradient(50% 50% at 50% 50%, rgba(167, 229, 254, 0.523) 0%, rgba(68, 108, 249, 0.36) 100%);
 }
+
+
+/* Customer Section CSS */
+.customer-section-image-bg {
+  background: linear-gradient(97.91deg, #EFB1FF 6.1%, #EE72FF 69.11%, #ED50FF 103.66%),
+    linear-gradient(0deg, #13121C, #13121C);
+}
+
