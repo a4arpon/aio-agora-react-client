@@ -1,6 +1,7 @@
 import imageLogo from "@/assets/LPA-solo_square-150x150 1.png"
+import voice from '@/assets/speaker-symbol-of-voice-volume-svgrepo-com.svg'
 import { Link } from "@tanstack/react-router"
-import { Megaphone, Mouse } from "lucide-react"
+import { Mouse } from "lucide-react"
 import Button from "../../shared/Button"
 
 const HeaderCard = () => {
@@ -10,7 +11,8 @@ const HeaderCard = () => {
         <img src={imageLogo} alt="la petite agora logo" />
         <div className="absolute -right-4 -top-4 -rotate-3">
           <Button>
-            <Megaphone size={32} />
+            {/* <Megaphone size={32} /> */}
+            <img src={voice} alt="" className="h-8 w-8 animate-pulse"/>
           </Button>
         </div>
       </div>
