@@ -11,8 +11,9 @@ const Portfolio = () => {
     >
       <div className="flex flex-col items-center justify-center h-full gap-14 py-20">
         <div className="text-center">
-          <div className="relative">
-            <p className="text-5xl lg:text-8xl font-semibold text-shadow-portfolio text-transparent absolute whitespace-nowrap -top-3 lg:-top-10 lg:-left-5 opacity-45 left-16">
+          <div className="relative flex justify-center
+           ">
+            <p className="text-5xl lg:text-8xl font-semibold text-shadow-portfolio text-transparent absolute whitespace-nowrap -top-3 lg:-top-10 opacity-45 text-center">
               SINCE 2021
             </p>
             <h2 className="text-[40px] font-semibold">
