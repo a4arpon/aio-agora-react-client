@@ -5,7 +5,7 @@ import Button from "../../shared/Button"
 
 const HeaderCard = () => {
   return (
-    <div className="w-full lg:w-fit h-full p-3 flex flex-col gap-5 items-center">
+    <div className="w-full lg:w-fit h-full p-3 flex flex-col gap-5 items-center lg:pt-16">
       <div className="h-[351px] lg:h-[500px] w-full lg:w-[488px] bg-[#1f1e28] rounded-[10px] p-5 flex justify-between items-start relative">
         <img src={imageLogo} alt="la petite agora logo" />
         <div className="absolute -right-4 -top-4 -rotate-3">

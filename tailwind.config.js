@@ -8,6 +8,7 @@ module.exports = {
       padding: "1rem",
       screens: {
         "2xl": "1400px",
+        '4xl': '1680px',
       },
     },
     colors: {

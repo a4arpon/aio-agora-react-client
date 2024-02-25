@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen lg:h-[660px] relative"
+      className="min-h-screen lg:h-[660px] relative pb-14 lg:pb-0"
       style={{ backgroundImage: `url(${svgBG})` }}
     >
       <div className="blur-3xl h-[267px] lg:w-[381px] rounded-full overflow-hidden left-[30%] top-[35%] hidden lg:inline lg:absolute p-30">

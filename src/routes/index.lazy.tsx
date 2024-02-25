@@ -1,5 +1,6 @@
 import Brands from "@/components/other/brands/Brands"
 import CustomerList from "@/components/other/customer-list/CustomerList"
+import FaqList from "@/components/other/faq/FaqList"
 import Functionalities from "@/components/other/functionalities/Functionalities"
 import Hero from "@/components/other/hero/Hero"
 import Portfolio from "@/components/other/portfolio/Portfolio"
@@ -17,6 +18,7 @@ const Index = () => {
       <Brands />
       <Subscription />
       <Portfolio />
+      <FaqList />
     </>
   )
 }

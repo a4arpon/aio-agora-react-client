@@ -4,7 +4,10 @@ import graphCustomersPng from "@/assets/graph-customers.png"
 
 const CustomerList = () => {
   return (
-    <section id="customer-list" className="grid justify-between items-center lg:grid-cols-5 bg-[#13121C] mb-24">
+    <section
+      id="customer-list"
+      className="grid justify-between items-center lg:grid-cols-5 bg-[#13121C] mb-24"
+    >
       <div className="lg:pl-28 px-4 lg:px-0 py-20 lg:col-span-3 text-center lg:text-start">
         <h3
           className={className(
