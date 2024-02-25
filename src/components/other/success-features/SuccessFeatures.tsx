@@ -1,6 +1,8 @@
 import p1 from "@/assets/product-1.png"
 import p2 from "@/assets/product-2.png"
 import p3 from "@/assets/product-3.png"
+import Button from "@/components/shared/Button"
+import { ShoppingBag } from "lucide-react"
 import Slider from "react-slick"
 import SuccessCard from "./SuccessCard"
 import SuccessHeader from "./SuccessHeader"
@@ -50,7 +52,13 @@ const SuccessFeatures = () => {
           ))}
         </Slider>
       </div>
-      <div className="container mt-14 text-center">
+      <div className="container mt-10 text-center">
+        <div className="flex justify-center mb-5 lg:hidden">
+          <Button className="lg:w-2/3 justify-around">
+            <span>Nous rejoindre</span>
+            <ShoppingBag />
+          </Button>
+        </div>
         <p className="text-2xl font-semibold">
           Nous sommes sur toutes les tendances - commence à faire des bénéfices
           en nous rejoignant aujourd'hui !

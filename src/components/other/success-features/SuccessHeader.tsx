@@ -31,8 +31,8 @@ const SuccessHeader = () => {
             SUCCESS
           </h3>
           <img src={arrowCircleVector} alt="arrow circle vector" className="relative object-cover w-fit top-[70px]"/>
-          <div className="absolute bottom-5 w-full bg-transparent flex items-end">
-            <Button>
+          <div className="absolute bottom-5 w-full bg-transparent flex items-end lg:justify-center">
+            <Button className="lg:w-2/3 justify-around">
               <span>Nous rejoindre</span>
               <ShoppingBag />
             </Button>

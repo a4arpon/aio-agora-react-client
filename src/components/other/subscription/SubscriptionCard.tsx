@@ -1,14 +1,7 @@
+import { SubscriptionProp } from "@/@types/subscription.type"
 import premiumbg from "@/assets/lastcard.bg.svg"
 import Button from "@/components/shared/Button"
 import { Check, ShoppingBag } from "lucide-react"
-
-type SubscriptionProp = {
-  package: string
-  name: string
-  points: string[]
-  isFlagship: boolean
-  price: string
-}
 
 const SubscriptionCard = ({
   subscription,
@@ -23,7 +16,10 @@ const SubscriptionCard = ({
       >
         <div className="flex flex-row h-full w-full backdrop-blur-lg bg-[#1a19236f] gap-2 rounded-[10px]">
           <div className="h-full w-2 bg-[#383B3F] rounded-[10px]" />
-          <div className="pl-2 p-6">
+          <div className="pl-2 p-6 relative">
+            <div className="-top-4 -right-2 lg:-right-6 bg-[#1D3249] absolute px-3 py-2 rounded-lg">
+              <p className="text-[#47B6FF]">Le plus acheté</p>
+            </div>
             <h3 className="bg-gradient-to-r from-[#EFB1FF] to-[#ED50FF] bg-clip-text text-transparent font-semibold mb-1 ">
               {subscription?.package}
             </h3>

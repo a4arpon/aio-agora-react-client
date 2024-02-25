@@ -1,4 +1,6 @@
-export const subscription = [
+import { SubscriptionProp } from "@/@types/subscription.type"
+
+export const subscription: SubscriptionProp[] = [
   {
     package: "TICKETS",
     name: "Algorien Tickets",
