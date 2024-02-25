@@ -52,6 +52,12 @@ body {
   background-clip: text;
 }
 
+.text-shadow-portfolio {
+  border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.66) 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-text-stroke: 1px white;
+  background-clip: text;
+}
+
 
 .slick-active>.pager {
   @apply customer-section-image-bg !important;

@@ -17,7 +17,7 @@ const SubscriptionMobile = () => {
   }
   return (
     <div>
-      <div className="flex flex-nowrap gap-2 justify-center">
+      <div className="flex flex-wrap lg:flex-nowrap gap-2 justify-center">
         <button
           type="button"
           className={`rounded-lg font-semibold px-2 py-1 ${

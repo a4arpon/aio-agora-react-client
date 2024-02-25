@@ -12,13 +12,13 @@ const Hero = () => {
       className="min-h-screen lg:h-[660px] relative"
       style={{ backgroundImage: `url(${svgBG})` }}
     >
-      <div className="blur-3xl h-[267px] lg:w-[381px] rounded-full overflow-hidden left-[30%] top-[35%] absolute p-30">
+      <div className="blur-3xl h-[267px] lg:w-[381px] rounded-full overflow-hidden left-[30%] top-[35%] hidden lg:inline lg:absolute p-30">
         <div className="header-squire-bg h-full w-full " />
       </div>
-      <div className="blur-3xl h-[267px] lg:w-[381px] rounded-full overflow-hidden right-5 top-[25%] absolute p-30 opacity-40">
+      <div className="blur-3xl h-[267px] lg:w-[381px] rounded-full overflow-hidden right-5 top-[25%]  hidden lg:inline lg:absolute p-30 opacity-40">
         <div className="bg-gradient-to-r from-[#EFB1FF] to-[#ED50FF] h-full w-full " />
       </div>
-      <div className="h-full w-full absolute top-0">
+      <div className="h-full w-full lg:absolute top-0">
         <div className="container mt-10  h-full flex justify-between items-center flex-col lg:flex-row gap-16">
           <div className="flex justify-center flex-col items-center lg:items-start">
             <h3 className="font-semibold uppercase text-[15px] lg:text-base bg-gradient-to-r from-[#EFB1FF] to-[#ED50FF] bg-clip-text text-transparent mb-2">
@@ -27,7 +27,11 @@ const Hero = () => {
             <h2 className="text-4xl lg:text-5xl font-bold uppercase leading-[1.540]">
               Communauté <br /> francophone
             </h2>
-            <img src={svgLineVector} alt="Svg line vector" className="mt-8 mb-10 w-full" />
+            <img
+              src={svgLineVector}
+              alt="Svg line vector"
+              className="mt-8 mb-10 w-full"
+            />
             <p className="text-base font-medium">
               Lorem ipsum dolor sit amet consectetur. Orci amet velit urna{" "}
               <br />
@@ -49,9 +53,7 @@ const Hero = () => {
           </div>
           <HeaderCard />
         </div>
-        
       </div>
-     
     </section>
   )
 }
