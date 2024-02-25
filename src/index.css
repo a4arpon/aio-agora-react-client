@@ -48,3 +48,8 @@ body {
   -webkit-text-stroke: 1px transparent;
   background-clip: text;
 }
+
+
+.slick-active>.pager {
+  @apply customer-section-image-bg !important;
+}

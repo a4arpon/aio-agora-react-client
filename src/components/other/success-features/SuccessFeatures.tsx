@@ -1,17 +1,54 @@
 import p1 from "@/assets/product-1.png"
 import p2 from "@/assets/product-2.png"
 import p3 from "@/assets/product-3.png"
+import Slider from "react-slick"
 import SuccessCard from "./SuccessCard"
 import SuccessHeader from "./SuccessHeader"
+
+const settings = {
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  arrows: false,
+  draggable: false,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: false,
+        dots: false,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        draggable: true,
+      },
+    },
+  ],
+  customPaging: () => (
+    <div className="h-2 w-5 mr-1 bg-light/40 rounded-sm pager" />
+  ),
+}
 
 const SuccessFeatures = () => {
   return (
     <section id="success-features" className="bg-[#13121C] py-20">
       <SuccessHeader />
-      <div className="container grid lg:grid-cols-3 gap-5 mt-14">
-        {productList?.map((item) => (
-          <SuccessCard product={item} />
-        ))}
+      <div className="container slider-container mt-20">
+        <Slider {...settings}>
+          {productList?.map((item) => (
+            <div key={item?.name} className="px-2 mb-3">
+              <SuccessCard product={item} />
+            </div>
+          ))}
+        </Slider>
       </div>
       <div className="container mt-14 text-center">
         <p className="text-2xl font-semibold">
