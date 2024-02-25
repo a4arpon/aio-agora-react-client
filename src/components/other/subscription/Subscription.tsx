@@ -6,7 +6,7 @@ import SubscriptionMobile from "./SubscriptionMobile"
 const Subscription = () => {
   return (
     <section id="subscription" className="bg-[#13121C] overflow-hidden">
-      <div className="relative">
+      <div className="relative hidden lg:block">
         <img src={svgLines} alt="" className="absolute -top-20 -right-16" />
       </div>
       <div className="container py-10 pb-16">
