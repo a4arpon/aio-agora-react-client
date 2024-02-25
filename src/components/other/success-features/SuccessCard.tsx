@@ -7,8 +7,8 @@ type Product = {
 
 const SuccessCard = ({ product }: { product: Product }) => {
   return (
-    <div className="manrope-font p-5 bg-[#1A1923] rounded-lg">
-      <div className="rounded-xl overflow-hidden h-[120px] w-full">
+    <div className="manrope-font p-5 bg-[#1A1923] rounded-[10px]">
+      <div className="rounded-[10px] overflow-hidden h-[120px] w-full">
         <img
           src={product?.image}
           alt=""

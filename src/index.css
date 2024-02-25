@@ -38,7 +38,10 @@ body {
     linear-gradient(0deg, #13121C, #13121C);
 }
 
-
+.customer-section-image-bg-hover:hover {
+  background: linear-gradient(97.91deg, #EFB1FF 6.1%, #EE72FF 69.11%, #ED50FF 103.66%),
+    linear-gradient(0deg, #13121C, #13121C);
+}
 
 /* Functionalities */
 
